@@ -7,7 +7,7 @@
         src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
         crossorigin="anonymous"></script>
-    <title>QWebChannel测试</title>
+    <title>QWebChannel</title>
     <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body>
@@ -19,8 +19,8 @@
     <button onclick="sendMessage()">Send message</button>
 </div>
 <div id="sysTime" style="font: 1em sans-serif;" ></div> 
-<button id='sent' onclick='sent()'>向前端传值</button>
-<button class = 'btn' onclick='sentBack()'>向后端传值</button>
+<button id='sent' onclick='sent()'>向前端傳值</button>
+<button class = 'btn' onclick='sentBack()'>向後端傳值</button>
 <button onclick='show()'}>show the value</button>
 <script>
     new QWebChannel(qt.webChannelTransport, function (channel) {
