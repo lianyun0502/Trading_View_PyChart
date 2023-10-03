@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "trading-view-pychart"
+version = "0.1.0"
+description = "Python QT framework for TradingView's Lightweight Charts JavaScript library."
+authors = ["eric.li <lee64690502@gmail.com>"]
+readme = "README.md"
+packages = [{include = "trading_view_pychart"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+pyside6 = "^6.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
